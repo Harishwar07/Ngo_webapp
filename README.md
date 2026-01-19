@@ -128,11 +128,17 @@ backend/.env
 Example:
 
 PORT=3001
+
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASSWORD=your_mysql_password
+
 DB_NAME=ngo_data_hub
+
 JWT_SECRET=super_secret_key
+
 CSRF_SECRET=csrf_secret_key
 
 
