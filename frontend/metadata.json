@@ -1,0 +1,5 @@
+{
+  "name": "NGO Data Hub",
+  "description": "A modern, secure, and scalable web application that acts as a central Read-Only Data Hub for small NGOs. It consolidates all mission-critical information into six standardized data structures for easy visualization and reporting.",
+  "requestFramePermissions": []
+}
