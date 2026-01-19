@@ -144,8 +144,6 @@ ACCESS_TOKEN_SECRET=ACCESS_TOKEN_SECRET_key
 REFRESH_TOKEN_SECRET= Another_ACCESS_TOKEN_SECRET_key
 
 
-⚠️ Never commit .env to Git
-
 ---------------------------------------------------------------------------------------
 
 🚀 Backend Setup
