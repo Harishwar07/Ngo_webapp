@@ -56,11 +56,21 @@ Separate tables for sub-forms
 📁 Project Structure
 
 ngo-data-hub/
+
 ├── frontend/          # React frontend
+
+
 ├── backend/           # Node.js backend
+
+
 ├── database/          # SQL schema & seed files
+
+
 ├── .gitignore
+
+
 └── README.md
+
 
 ---------------------------------------------------------------------------------------
 
