@@ -19,6 +19,8 @@ It allows administrators to manage:
 
 The system supports dynamic sub-forms, secure authentication, and role-based access.
 
+---------------------------------------------------------------------------------------
+
 🧱 Tech Stack
 Frontend
 
@@ -48,13 +50,19 @@ MySQL (relational, normalized)
 
 Separate tables for sub-forms
 
+---------------------------------------------------------------------------------------
+
+
 📁 Project Structure
+
 ngo-data-hub/
 ├── frontend/          # React frontend
 ├── backend/           # Node.js backend
 ├── database/          # SQL schema & seed files
 ├── .gitignore
 └── README.md
+
+---------------------------------------------------------------------------------------
 
 ⚙️ Prerequisites (Before You Start)
 
@@ -76,6 +84,8 @@ npm -v
 mysql --version
 git --version
 
+---------------------------------------------------------------------------------------
+
 🗄️ Database Setup (FROM SCRATCH)
 1️⃣ Create Database
 
@@ -93,6 +103,8 @@ mysql -u root -p ngo_data_hub < database/schema.sql
 (Optional)
 
 mysql -u root -p ngo_data_hub < database/seed.sql
+
+---------------------------------------------------------------------------------------
 
 🔐 Environment Variables
 Backend
@@ -115,6 +127,8 @@ CSRF_SECRET=csrf_secret_key
 
 ⚠️ Never commit .env to Git
 
+---------------------------------------------------------------------------------------
+
 🚀 Backend Setup
 cd backend
 npm install
@@ -125,6 +139,8 @@ If successful:
 
 Backend running on https://localhost:3001
 
+---------------------------------------------------------------------------------------
+
 🌐 Frontend Setup
 cd frontend
 npm install
@@ -134,6 +150,8 @@ npm run dev
 If successful:
 
 Frontend running on http://localhost:5173
+
+---------------------------------------------------------------------------------------
 
 🔑 Login
 
