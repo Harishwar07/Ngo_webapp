@@ -107,12 +107,12 @@ CREATE DATABASE ngo_data_hub;
 
 From the project root:
 
-mysql -u root -p ngo_data_hub < database/schema.sql
+mysql -u root -p ngo_data_hub < backend/schema.sql
 
 
 (Optional)
 
-mysql -u root -p ngo_data_hub < database/seed.sql
+mysql -u root -p ngo_data_hub < backend/seed.sql
 
 ---------------------------------------------------------------------------------------
 
